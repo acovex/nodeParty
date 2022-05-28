@@ -1,0 +1,27 @@
+{
+  "name": "nodeparty",
+  "version": "1.0.0",
+  "description": "just test things with node",
+  "main": "index.js",
+  "scripts": {
+    "t": "npx ts-node src/main.ts",
+    "start": "npm run \"src/main.ts\"",
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acovex/nodeParty.git"
+  },
+  "author": "acoves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acovex/nodeParty/issues"
+  },
+  "homepage": "https://github.com/acovex/nodeParty#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0"
+  }
+}
